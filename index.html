@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kingsway Hosiery Mills</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link for the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- copying third link of the font awesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- is main box ke andar mera poora ka poora content aa rha hoga -->
+    <div class="main_box">
+      <!-- testing the image tag -->
+       <img src="main03.jpeg" alt="image not found">
+        <!-- checkbox -->
+      <input type="checkbox" id="check" />
+      <!-- is div class ke andar humne apne check box ka label rakha hai. usually check box ka label koi text hota hai . lekin yha label ki jagah humne hamburger menu icon display karaya hai, yes wale label ki jagah mujhe mera hamburger menu wala icon dikhayi de rha hai. label ka kaam hota hai jab main apne check box ko tick karu toh vo tick/check ho jaye. dobara click karenge toh vo uncheck ho jayega.-->
+      <div class="btn_one">
+        <!-- label ke andar icon banane ka funda yeh hai ki label ke andar jo aap text likhna chahte the , uski jagah mujhe sirf ek icon dikhai de rha hai.-->
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+<!-- second div is for my complete side bar menu -->
+
+      <div class="sidebar_menu">
+        <!-- logo div inside side bar menu where we have written apna college -->
+        <div class="logo">
+          <a href="#">Kingsway Hosiery Mills</a>
+        </div>
+        <!-- btn two ke andar bhi label lagaya hai ,is label ke andar bhi ek icon class bana rakhi hai ,yeh kiske liye hai for check ke liye, yani btn one bhi first check box ke liye hai btn two bhi first check box ke liye hai , yeh icon cross wala hai , hamburger ko press karenge tab bhi checkbox check ho jayega, cross wale icon ko press karenge tab bhi checkbox check ho jayega. yeh dono buttons same checkbox ko control kar rhe hain.  -->
+        <div class="btn_two">
+          <label for="check">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+        <!-- div menu inside div side bar menu jiske andar humare saare ke saare options aa rhe hain. we have formed this menu with the help of unordered list.-->
+        <div class="menu">
+          <ul>
+            <li>
+                <!-- there are 2 parts/things inside list items -->
+                <!-- first part is of the icons -->
+                <i class="fa-solid fa-house"></i>
+              <!-- second part is for the name of the icon. -->
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+                <!-- inside every list item, there is an icon and name of that icon. -->
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="#">Ladies Jackets</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-photo-film"></i>
+              <a href="#">Gents Jackets</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="#">Kids Jackets</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-store"></i>
+              <a href="#">Socks</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">Gloves</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-comments"></i>
+              <a href="#">Mufflers</a>
+            </li>
+          </ul>
+        </div>
+        <!-- inside social media panel , there is again an unordered list, jiske andar list items ki jagah clickable anchor tags present hain. -->
+        <div class="social_media">
+          <ul>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

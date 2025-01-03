@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #5e0505 !important;
+}
+
+.main-box {
+  background-color: wheat !important;
+}
+
+.main {
+  height: 120vh;
+  width: 80vw;
+  display: block;
+  margin: 0 auto;
+}
+
+.heading {
+  width: fit-content; /* Adjust width to fit the content */
+  margin: 0 auto; /* Auto margins on the left and right */
+  color: wheat;
+}
+
+.logo {
+  height: 3.5rem;
+  width: 5rem;
+}
+
+.ladies-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* styling the images */
+.card {
+  width: 10rem;
+  margin: 2rem;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+}
+
+/* designing footer */
+.footer {
+  width: 100%;
+  height: 53vh;
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10rem; */
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 0 auto;
+}
+
+.Address {
+    /* display: block; */
+    margin: 0 auto;
+    width: 80%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h3 {
+    color: maroon;
+}
+
+.address h3 {
+    color: maroon;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer i {
+    color: black !important;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.footer .about i {
+    transition: opacity 0.3s ease; /* Smooth transition for opacity */
+}
+
+.footer .about i:hover {
+    opacity: 0.5; /* Set opacity to 0.5 when hovered */
+}
+
